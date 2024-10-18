@@ -8,7 +8,7 @@ interface ButtonProps {
 export const Button = ({text, link='/'} : ButtonProps) => {
     return (
         <Link
-            className="py-4 px-4 text-white bg-black rounded text-xs lg:px-8"
+            className="py-4 px-8 text-white bg-black rounded text-xs"
             href={`${link}`}
         >
             {text}
