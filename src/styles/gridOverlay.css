@@ -18,7 +18,7 @@
 @media (max-width: 475px) {
     /* Grille pour mobile */
     .grid-overlay {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 12px;
     padding: 0 32px;
     }
